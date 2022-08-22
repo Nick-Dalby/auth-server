@@ -1,0 +1,4 @@
+20220821	13:01:09	bd97fea4-40bb-4018-9c86-5c8a9001c234	TypeError :fsPromises.readFil is not a function
+20220821	14:07:10	cbc86faa-fbe1-43bb-b7b8-5f22f686034c	Error: Not allowed by CORS
+20220821	18:12:38	ec8f8237-137c-4403-bdb7-1f7f88527bc9	SyntaxError: Unexpected token } in JSON at position 15
+20220822	08:33:55	ea101b19-7b4d-4848-a819-d3045095bc5a	ReferenceError: whitelist is not defined
