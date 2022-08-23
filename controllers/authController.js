@@ -24,7 +24,7 @@ const handleLogin = async (req, res) => {
         },
       },
       process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: '30s' }
+      { expiresIn: '10m' }
     )
     const refreshToken = jwt.sign(
       { username: foundUser.username },
@@ -46,7 +46,7 @@ const handleLogin = async (req, res) => {
     })
 
     // Send authorization roles and access token to user
-    res.json({ roles, accessToken })
+    res.json({ accessToken })
   } else {
     res.sendStatus(401)
   }
