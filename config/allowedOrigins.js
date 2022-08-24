@@ -1,3 +1,6 @@
-const allowedOrigins = ['https://nick-dalby.github.io', 'http://localhost:3000']
+const allowedOrigins = [
+  'https://tranquil-cat-2f4ccd.netlify.app',
+  'http://localhost:3000',
+]
 
 module.exports = allowedOrigins
