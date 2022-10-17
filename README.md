@@ -12,7 +12,7 @@ NodeJs and Express auth server RestAPI for a [React auth app](https://github.com
 
 Features:
 
-- nodeJs and Ecpres RestAPI framework
+- nodeJs and Express RestAPI framework
 - endpoints for roles and authorization
 - heroku deployment
 
